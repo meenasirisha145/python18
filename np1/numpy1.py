@@ -7,13 +7,14 @@ import numpy as np
 np.__version__
 np.abs
 np.array([1,4,2,5,3])
+
 l=[i for i in range(5)]
 l
 l
 np.full((3,5),3.14)
 x=np.arange(0,20,2)
 len(x)
-
+np.shape(x)
 np.linspace(0,1,5)
 np.random.random((3,3))
 np.random.normal(0,1,(3,3))
@@ -64,3 +65,4 @@ z
 z[0][0]=52
 z
 x2
+
