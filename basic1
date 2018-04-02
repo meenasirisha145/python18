@@ -1,0 +1,10 @@
+import random
+a=random.sample(range(1,101),100)
+print(a)
+print(min(a))
+print(max(a))
+b=sorted(a)
+print(b)
+def median(l):
+	print((l[round((len(l)/2)-1)]+l[round(len(l/2))]))
+median(b)
